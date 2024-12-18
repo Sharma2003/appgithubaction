@@ -8,7 +8,7 @@ name: Python CI
         - main
 jobs:
   test:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: Check out code
         uses: actions/checout@v2
